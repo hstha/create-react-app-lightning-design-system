@@ -5,23 +5,29 @@
   "dependencies": {
     "@salesforce-ux/design-system": "^2.9.3",
     "@salesforce/design-system-react": "^0.10.4",
+    "@storybook/react": "^5.0.11",
     "@types/jest": "^24.0.13",
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
+    "@types/storybook__react": "^4.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
     "typescript": "^3.5.0"
   },
   "devDependencies": {
-    "serve": "^11.0.1"
+    "serve": "^11.0.1",
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "serve": "serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [

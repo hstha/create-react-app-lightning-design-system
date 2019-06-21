@@ -1,4 +1,4 @@
-import { IconSettings, Button, Dropdown, DropdownTrigger } from "@salesforce/design-system-react";
+import { Button, Dropdown, DropdownTrigger, IconSettings  } from "@salesforce/design-system-react";
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
